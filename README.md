@@ -87,13 +87,6 @@ Le bit b0 code l’état de la porte : **0** = fermée, **1** = ouverte. Les
 bits b3-b1 codent le numéro de la carte atteignable en
 franchissant la porte (8 niveaux maximum possibles).
 
-Travail à fournir
-=================
-
-Il vous est demandé de compléter l’ébauche de jeu fournie, de produire un court rapport d’au plus deux pages, ainsi que de faire une démonstration de votre implantation des fonctionnalités demandées. Le rapport devra contenir, pour chaque fonctionnalité ajoutée, une description de la solution adoptée. Il devra être remis au format `PDF` dans un fichier `rapport.pdf` à la racine de votre arborescence.
-Votre code devra être clairement commenté et indenté. Les fonctions seront nommées en anglais. Les fonctionnalités demandées constituent un cadre obligatoire à partir duquel vous êtes libres d’agrémenter le jeu comme vous l’entendez. Nous décrivons ci-après les fonctionnalités attendues du jeu.
-
-
 Gestion des déplacements
 ------------------------
 
@@ -132,8 +125,7 @@ Comme nous n’utilisons que 3 bits pour coder les différentes carte du jeu, il
 
 ### Chargement des cartes
 
-Écrire les fonctions permettant de charger une carte à l’écran à partir
-d’un fichier. Pour représenter une partie, nous utiliserons un fichier supplémentaire, lui aussi au format texte, dans le répertoire data. Ce fichier aura le format suivant :
+Pour représenter une partie, nous utiliserons un fichier supplémentaire, lui aussi au format texte, dans le répertoire data. Ce fichier aura le format suivant :
 
 - La première ligne contient le numéro de niveaux
 - La seconde ligne indique la position du joueur sous la forme `level : x, y` où *level* est le numéro du monde, *x* et *y* sont les coordonnées sur la carte correspondante.
